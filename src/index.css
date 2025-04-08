@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --back-ground-color: #9feaffeb;
+  --boxes-colors: #82e0faeb;
+  --boxes-colors2: #a2e9fdeb;
+  --search-color: #f9f9fa;
+  --main-text-color: #000000;
+  --sec-text-color: #425b5b;
+  --input-hover: #dddddd;
+  --transition: 0.3s;
+}
+
+body.dark {
+  --back-ground-color: #0d0441;
+  --boxes-colors: #07002d;
+  --boxes-colors2: #0d0441;
+  --search-color: #030025;
+  --main-text-color: #fbf9cc;
+  --sec-text-color: #7b7980;
+  --input-hover: #302f2f;
+  --transition: 0.3s;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--back-ground-color);
+  color: var(--main-text-color);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 2px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--boxes-colors);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--sec-text-color);
+  border-radius: 10px;
+}
+
+.container {
+  padding: 0 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+}
