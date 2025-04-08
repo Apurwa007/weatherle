@@ -9,19 +9,12 @@ Stay informed with real-time and forecasted weather data in a beautifully design
 
 - [Overview](#overview)
 - [Built With](#built-with)
-- [Screenshot](#screenshot)
-- [Links](#links)
 - [Features](#features)
-- [Lighthouse Report](#lighthouse-report)
 - [Project Structure](#project-structure)
 - [API Integration](#api-integration)
 - [Installation](#installation)
-- [Configuration](#configuration)
-- [Dependencies](#dependencies)
 - [Examples](#examples)
 - [Troubleshooting](#troubleshooting)
-- [Contributors](#contributors)
-- [License](#license)
 
 ---
 
@@ -102,7 +95,7 @@ fetch(
 To set up and run the Weather Dashboard locally with an API key, follow these steps:
 
 bash
-git clone https://github.com/ApurwaSao/WeatherOS.git
+git clone https://github.com/Apurwa007/weatherle.git
 cd your-project-directory
 echo "REACT_APP_OPENWEATHERMAP_API_KEY=your-api-key-here" > .env
 npm install && npm run dev
